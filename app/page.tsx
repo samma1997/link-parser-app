@@ -83,7 +83,7 @@ export default function Home() {
       <main className="flex-grow flex flex-col items-center justify-center px-4 text-center">
         {/* Powered By */}
         <div className="mb-6">
-          <p className="inline-flex items-center space-x-2 rounded-full border px-5 py-2 text-sm bg-white text-gray-700 shadow">
+          <p className="flex items-center justify-center space-x-2 rounded-full border px-5 py-2 text-sm bg-white text-gray-700 shadow">
             <span>Powered by</span>
             <a
               href="https://lucasammarco.com/"
@@ -93,8 +93,6 @@ export default function Home() {
             >
               Luca Sammarco
             </a>
-            <span>e usato da oltre</span>
-            <span className="font-semibold text-blue-500">10k utenti</span>
           </p>
         </div>
 
