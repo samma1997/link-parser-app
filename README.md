@@ -1,106 +1,118 @@
 # FreeScrap - Strumento di Web Scraping
 
-Benvenuto in **FreeScrap** - Uno strumento potente per estrarre email e numeri di telefono da siti web, costruito con [Next.js](https://nextjs.org).
+Benvenuto in **FreeScrap**! 🚀 Uno strumento potente per estrarre email e numeri di telefono da siti web, costruito con **Next.js**.
 
-Questo progetto è stato avviato con [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+**FreeScrap** ti aiuta a raccogliere informazioni da qualsiasi sito web in modo semplice ed efficiente.
 
-![Screenshot di FreeScrap](./public/images/screenshot.png) <!-- Aggiungi questa immagine nella tua cartella /public/images -->
+---
 
 ## Descrizione
 
-**FreeScrap** aiuta gli utenti a estrarre dati utili come email e numeri di telefono da qualsiasi sito web. Basta inserire una lista di link e l'app estrarrà le informazioni di contatto da ogni pagina.
+FreeScrap consente di estrarre dati utili come **email** e **numeri di telefono** dai siti web. Basta inserire una lista di link e il nostro strumento estrarrà automaticamente le informazioni di contatto.
 
-Realizzato con il moderno framework [Next.js](https://nextjs.org) e distribuito su [Vercel](https://vercel.com), **FreeScrap** è ottimizzato per le prestazioni e la facilità d'uso.
+Realizzato con il moderno framework **Next.js** e distribuito su **Vercel**, FreeScrap è ottimizzato per prestazioni elevate e un'esperienza utente fluida.
 
-Visita la versione live dell'app su [Vercel](https://vast-depths-70889-b1585b8d6463.herokuapp.com/) o il mio sito web personale per maggiori informazioni: [Luca Sammarco](https://lucasammarco.com).
+Visita la versione live dell'app su **[Vercel](https://vercel.com/)** o il mio sito web personale per maggiori informazioni: **[Luca Sammarco](https://lucasammarco.com/)**.
 
-## Iniziare
+---
 
-Per avviare il progetto localmente, segui i passaggi seguenti:
+## 🚀 Iniziare
 
 ### Prerequisiti
 
-Prima di eseguire l'app, assicurati di avere installato **Node.js** e **npm** (oppure **yarn**, **pnpm**, o **bun**).
+Prima di eseguire l'app, assicurati di avere installato:
+
+- **Node.js**
+- **npm**, **yarn**, **pnpm** o **bun**
+
+---
+
+### Passaggi per l'installazione:
 
 1. **Clona il repository:**
 
    ```bash
    git clone https://github.com/samma1997/link-parser-app.git
-   Installa le dipendenze:
+   cd link-parser-app
    ```
 
-bash
-Copia
-cd link-parser-app
-npm install
-Oppure, se utilizzi yarn:
+2. **Installa le dipendenze:**
 
-bash
-Copia
-yarn install
-Eseguire il Server di Sviluppo
-Una volta installate le dipendenze, puoi eseguire il server di sviluppo:
+   Con **npm**:
 
-bash
-Copia
-npm run dev
+   ```bash
+   npm install
+   ```
 
-# oppure
+   Oppure con **yarn**:
 
-yarn dev
+   ```bash
+   yarn install
+   ```
 
-# oppure
+3. **Avvia il server di sviluppo:**
 
-pnpm dev
+   Con **npm**:
 
-# oppure
+   ```bash
+   npm run dev
+   ```
 
-bun dev
-Ora apri http://localhost:3000 nel tuo browser per vedere il risultato.
+   Oppure con **yarn**:
 
-La pagina si aggiorna automaticamente mentre modifichi i file in app/page.tsx.
+   ```bash
+   yarn dev
+   ```
 
-Struttura del Progetto
-I principali file in questo progetto includono:
+4. **Apri il progetto nel browser:**
 
-app/page.tsx: Punto di ingresso principale dell'app, dove puoi modificare la home page.
-public/images/: Cartella per immagini e risorse (come la schermata dell'app).
-Funzionalità
-Facile inserimento di URL multipli per fare scraping.
-Estrazione di email e numeri di telefono dai siti web.
-UI responsive, ottimizzata per mobile e desktop.
-Distribuito e ospitato su Vercel.
-Approfondisci
-Per scoprire di più sulle tecnologie utilizzate in questo progetto, consulta le seguenti risorse:
+   Vai su [http://localhost:3000](http://localhost:3000) per vedere l'app in azione.
 
-Documentazione di Next.js - Scopri le funzionalità e le API di Next.js.
-Impara Next.js - Un tutorial interattivo su Next.js.
-Deployment
-Questo progetto è ospitato su Vercel. Se vuoi distribuirlo autonomamente, segui questi passaggi:
+---
 
-Pusha le tue modifiche su GitHub.
-Collega il tuo repository GitHub a Vercel per attivare un deploy automatico.
-Per maggiori dettagli, consulta la documentazione di deployment di Next.js.
+## 🔍 Funzionalità
 
-Contribuire
-Accettiamo contributi! Se hai idee o miglioramenti per il progetto, sentiti libero di aprire un'issue o una pull request.
+- **Estrazione dati**: Estrai email e numeri di telefono da qualsiasi sito web.
+- **Supporto per più URL**: Inserisci più URL separati da linee e lascia che l'app faccia il lavoro.
+- **UI responsive**: Ottimizzata per dispositivi mobili e desktop.
+- **Distribuito su Vercel**: Pronto per essere distribuito globalmente.
 
-Licenza
-Questo progetto è concesso in licenza sotto la licenza MIT - consulta il file LICENSE per maggiori dettagli.
+---
 
-Creato con ❤️ da Luca Sammarco.
+## 📚 Risorse di apprendimento
 
-markdown
-Copia
+Per imparare di più su **Next.js**, visita le seguenti risorse:
 
-### Modifiche principali:
+- [Documentazione di Next.js](https://nextjs.org/docs)
+- [Impara Next.js - Un tutorial interattivo](https://nextjs.org/learn)
 
-1. Ho aggiunto i dettagli mancanti nel codice di installazione e avvio (come il comando `git clone`).
-2. Ho precisato che l'immagine dovrebbe essere aggiunta nella cartella `/public/images/`.
-3. Ho migliorato la formattazione dei vari comandi Bash per facilitarne la lettura.
+---
 
-### Passaggi successivi:
+## 🚀 Deployment
 
-1. **Aggiungi l'immagine** del progetto nella cartella `/public/images/` (se non l'hai già fatto).
-2. **Fai il commit e push** del file `README.md` nel repository GitHub.
-3. Vai su [GitHub](https://github.com) per vedere l'aggiornamento del file `README.md`.
+Questo progetto è già ospitato su **Vercel**. Se vuoi distribuirlo autonomamente, segui questi passaggi:
+
+1. **Pusha le tue modifiche su GitHub:**
+
+   Dopo aver fatto il commit delle tue modifiche, inviale al tuo repository remoto su GitHub.
+
+2. **Collega il tuo repository GitHub a Vercel:**
+
+   Vai su [Vercel](https://vercel.com/) e collega il tuo repository GitHub. Ogni modifica che farai su GitHub verrà automaticamente distribuita su Vercel.
+
+---
+
+## 👨‍💻 Contribuire
+
+Contribuisci a **FreeScrap**! Se hai idee, miglioramenti o correzioni, apri una **pull request** o un **issue** nel repository.
+
+---
+
+## 📝 Licenza
+
+Questo progetto è concesso in licenza sotto la licenza **MIT** - consulta il file [LICENSE](./LICENSE) per maggiori dettagli.
+
+---
+
+Creato con ❤️ da **Luca Sammarco**.  
+Visita il mio sito web: [lucasammarco.com](https://lucasammarco.com/).
