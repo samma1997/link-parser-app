@@ -3,7 +3,7 @@
 import { useState } from "react";
 
 type Result = {
-  URL: string; // Modificato per allinearsi al backend
+  URL: string;
   Emails: string[];
   Phones: string[];
 };
@@ -34,14 +34,17 @@ export default function Home() {
     setResults([]);
 
     try {
-      // Invio la richiesta POST al backend
-      const response = await fetch("http://localhost:8000/process-links", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          links: linkList,
-        }),
-      });
+      // **Modifica qui l'URL** per fare riferimento al backend su Heroku
+      const response = await fetch(
+        "https://vast-depths-70889-b1585b8d6463.herokuapp.com/process-links",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            links: linkList,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Errore nella richiesta al backend");
